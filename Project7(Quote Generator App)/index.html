@@ -7,6 +7,18 @@
     <title>Quote Generator</title>
   </head>
   <body>
+    <div class="quote-box">
+      <h2>Quote of the day</h2>
+      <blockquote id="quote">Loading...</blockquote>
+      <span id="author">Loading...</span>
+      <div>
+        <button onclick="getquote(api_url);">New Quote</button>
+        <button onclick="tweet()">
+          <!-- <img src="twitter.png" alt="" /> -->
+          Tweet
+        </button>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
